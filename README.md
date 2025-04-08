@@ -1,11 +1,11 @@
 # RAG Application
-A Retrieval-Augmented Generation (RAG) application that enhances LLM responses with relevant context.
-
+A demo of Retrieval-Augmented Generation (RAG) application with MCP server integration.
 
 ![Screenshot](./github/screenshot.png)
 
 ## Features
-- Document retrieval using vector search
+- MCP server integration
+- Document retrieval using vector search with ChromaDB
 - Context-aware prompt generation
 - Integration with LLM APIs
 
@@ -22,7 +22,7 @@ Use the `process_query` tool to ask questions about the company.
 ## Configuration
 Set up your environment variables in .env:
 ```
-your_api_key
+OPENAI_API_KEY=your_api_key
 ```
 
 ## Project Structure
